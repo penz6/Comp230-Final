@@ -47,4 +47,5 @@ if __name__ == '__main__':
     pool = mp.Pool(4)
     pool.map(multi_plot,plotting_data)
     pool.close()
+    #done
     pool.join()
